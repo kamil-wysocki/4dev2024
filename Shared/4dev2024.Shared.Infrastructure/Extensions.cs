@@ -40,7 +40,8 @@ namespace _4dev2024.Shared.Infrastructure
                     foreach (var disabledModule in services.GetDisabledModules())
                     {
                         var parts = manager.ApplicationParts
-                                           .Where(x => x.Name.Contains(disabledModule, StringComparison.InvariantCultureIgnoreCase));
+                                           .Where(x => x.Name.Contains(disabledModule, 
+                                           StringComparison.InvariantCultureIgnoreCase));
 
                         removedParts.AddRange(parts);
                     }

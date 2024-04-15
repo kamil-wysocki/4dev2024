@@ -8,7 +8,6 @@ using Microsoft.Extensions.DependencyInjection;
 using System.Data;
 using System.Reflection;
 using System.Runtime.CompilerServices;
-using System.Windows.Input;
 
 [assembly: InternalsVisibleTo("4dev2024.Initializer")]
 namespace _4dev2024.Shared.Infrastructure.Modules
@@ -50,6 +49,9 @@ namespace _4dev2024.Shared.Infrastructure.Modules
             return builder;
         }
 
+        private static IEnumerable<string> GetSettings(string path, string pattern)
+            => Directory.EnumerateFiles(path, $"module.{pattern}.json", SearchOption.AllDirectories);
+
         internal static IServiceCollection AddModuleRequests(this IServiceCollection services,
             IList<Assembly> assemblies)
         {
@@ -88,8 +90,5 @@ namespace _4dev2024.Shared.Infrastructure.Modules
 
             return services;
         }
-
-        private static IEnumerable<string> GetSettings(string path, string pattern)
-            => Directory.EnumerateFiles(path, $"module.{pattern}.json", SearchOption.AllDirectories);
     }
 }
