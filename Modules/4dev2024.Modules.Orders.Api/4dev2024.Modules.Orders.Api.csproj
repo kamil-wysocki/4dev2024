@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>_4dev2024.Modules.Invoices.Api</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="module.orders.development.json" />
+    <None Remove="module.orders.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="module.orders.development.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="module.orders.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\4dev2024.Modules.Orders.Core\4dev2024.Modules.Orders.Core.csproj" />
+  </ItemGroup>
+
+</Project>

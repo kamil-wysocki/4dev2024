@@ -1,0 +1,34 @@
+@hostname =localhost
+@port=5000
+@host={{hostname}}:{{port}}
+@clientId=2c022102-bb22-46c2-a629-88026f91fd8d
+
+###
+GET https://{{host}}/modules
+
+
+###
+
+GET https://{{host}}/clients-module/clients
+
+###
+GET https://{{host}}/clients-module/clients/{{clientId}}
+
+###
+
+POST https://{{host}}/clients-module/clients
+Content-Type: application/json
+
+{
+    "id": "{{clientId}}",
+    "firstName": "Jan",
+    "lastName": "Nowak",
+    "gender": "M",
+    "phone": "123789091",
+    "address": "Aleje Jerozolimskie 128/2, 02-890 Warszawa"
+}
+
+
+###
+GET https://{{host}}/orders-module/orders/clients/{{clientId}}
+

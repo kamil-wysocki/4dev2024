@@ -1,0 +1,11 @@
+{
+  "products": {
+    "module": {
+      "name": "Products",
+      "enabled": true
+    }
+  },
+  "ConnectionStrings": {
+    "Products": "Server=localhost;Database=ProductDB;User id=sa;Password=4dev2024!;TrustServerCertificate=true"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "clients": {
+    "module": {
+      "name": "Clients",
+      "enabled": true
+    }
+  },
+  "ConnectionStrings": {
+    "Clients": "Server=localhost;Database=ClientDB;User id=sa;Password=4dev2024!;TrustServerCertificate=true"
+  }
+}

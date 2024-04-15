@@ -1,0 +1,11 @@
+{
+  "orders": {
+    "module": {
+      "name": "Orders",
+      "enabled": true
+    }
+  },
+  "ConnectionStrings": {
+    "Orders": "Server=localhost;Database=OrderDB;User id=sa;Password=4dev2024!;TrustServerCertificate=true"
+  }
+}

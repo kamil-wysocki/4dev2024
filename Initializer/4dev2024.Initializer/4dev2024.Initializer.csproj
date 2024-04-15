@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>_4dev2024.Initializer</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Modules\4dev2024.Modules.Clients.Api\4dev2024.Modules.Clients.Api.csproj" />
+    <ProjectReference Include="..\..\Modules\4dev2024.Modules.Orders.Api\4dev2024.Modules.Orders.Api.csproj" />
+    <ProjectReference Include="..\..\Modules\4dev2024.Modules.Products.Api\4dev2024.Modules.Products.Api.csproj" />
+  </ItemGroup>
+
+</Project>
