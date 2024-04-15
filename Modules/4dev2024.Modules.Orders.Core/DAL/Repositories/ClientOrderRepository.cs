@@ -1,7 +1,7 @@
-﻿using _4dev2024.Modules.Invoices.Core.Entities;
+﻿using _4dev2024.Modules.Orders.Core.Entities;
 using Microsoft.EntityFrameworkCore;
 
-namespace _4dev2024.Modules.Invoices.Core.DAL.Repositories
+namespace _4dev2024.Modules.Orders.Core.DAL.Repositories
 {
     internal class ClientOrderRepository : IClientOrderRepository
     {

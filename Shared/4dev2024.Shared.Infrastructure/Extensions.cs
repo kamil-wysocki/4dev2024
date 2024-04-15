@@ -8,7 +8,6 @@ using Microsoft.AspNetCore.Mvc.ApplicationParts;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.OpenApi.Models;
-using System;
 using System.Reflection;
 using System.Runtime.CompilerServices;
 
@@ -21,8 +20,7 @@ namespace _4dev2024.Shared.Infrastructure
 
         internal static IServiceCollection AddInfrastructure(this IServiceCollection services, 
                                                              IList<IModule> modules, 
-                                                             IList<Assembly> assemblies,
-                                                             IConfiguration configuration)
+                                                             IList<Assembly> assemblies)
         {
             services.AddCors(cors =>
             {

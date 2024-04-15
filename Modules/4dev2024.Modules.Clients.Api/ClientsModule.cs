@@ -6,7 +6,7 @@ using Microsoft.Extensions.DependencyInjection;
 
 namespace _4dev2024.Modules.Clients.Api
 {
-    internal class ClientsModule : IModule
+    public class ClientsModule : IModule
     {
         public string Name => "Clients";
 

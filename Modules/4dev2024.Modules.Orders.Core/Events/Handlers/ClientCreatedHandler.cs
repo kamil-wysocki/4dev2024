@@ -1,10 +1,9 @@
-﻿using _4dev2024.Modules.Invoices.Core.DAL.Repositories;
-using _4dev2024.Modules.Invoices.Core.Entities;
-using _4dev2024.Modules.Orders.Core.Events;
+﻿using _4dev2024.Modules.Orders.Core.DAL.Repositories;
+using _4dev2024.Modules.Orders.Core.Entities;
 using _4dev2024.Shared.Abstractions.Events;
 using Microsoft.Extensions.Logging;
 
-namespace _4dev2024.Modules.Invoices.Core.Events.Handlers
+namespace _4dev2024.Modules.Orders.Core.Events.Handlers
 {
     internal sealed class ClientCreatedHandler : IEventHandler<ClientCreated>
     {

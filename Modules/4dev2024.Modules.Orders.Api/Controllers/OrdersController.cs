@@ -1,5 +1,5 @@
-﻿using _4dev2024.Modules.Invoices.Core.DTO;
-using _4dev2024.Modules.Invoices.Core.Services;
+﻿using _4dev2024.Modules.Orders.Core.DTO;
+using _4dev2024.Modules.Orders.Core.Services;
 using _4dev2024.Shared.Abstractions.Controllers;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;

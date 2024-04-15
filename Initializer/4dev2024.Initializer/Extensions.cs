@@ -20,7 +20,7 @@ namespace _4dev2024.Initializer
         internal static IServiceCollection RegisterModules(this IServiceCollection services, IConfiguration configuration)
         {
             services.InitModules(configuration);
-            services.AddInfrastructure(_modules, _assemblies, configuration);
+            services.AddInfrastructure(_modules, _assemblies);
             foreach (var module in _modules)
             {
                 module.Register(services, configuration);

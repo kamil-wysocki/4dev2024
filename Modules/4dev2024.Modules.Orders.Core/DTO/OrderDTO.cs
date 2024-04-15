@@ -1,4 +1,4 @@
-﻿namespace _4dev2024.Modules.Invoices.Core.DTO
+﻿namespace _4dev2024.Modules.Orders.Core.DTO
 {
     internal class OrderDTO
     {

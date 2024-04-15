@@ -1,7 +1,7 @@
-﻿using _4dev2024.Modules.Invoices.Core.DAL;
-using _4dev2024.Modules.Invoices.Core.DAL.Repositories;
-using _4dev2024.Modules.Invoices.Core.Entities;
-using _4dev2024.Modules.Invoices.Core.Services;
+﻿using _4dev2024.Modules.Orders.Core.DAL;
+using _4dev2024.Modules.Orders.Core.DAL.Repositories;
+using _4dev2024.Modules.Orders.Core.Entities;
+using _4dev2024.Modules.Orders.Core.Services;
 using _4dev2024.Shared.Abstractions.Databases;
 using _4dev2024.Shared.Infrastructure.Databases;
 using Microsoft.Extensions.DependencyInjection;

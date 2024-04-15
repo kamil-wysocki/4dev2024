@@ -1,10 +1,10 @@
-﻿using _4dev2024.Modules.Invoices.Core.DAL.Repositories;
-using _4dev2024.Modules.Invoices.Core.DTO;
-using _4dev2024.Modules.Invoices.Core.Entities;
+﻿using _4dev2024.Modules.Orders.Core.DAL.Repositories;
+using _4dev2024.Modules.Orders.Core.DTO;
+using _4dev2024.Modules.Orders.Core.Entities;
 using _4dev2024.Shared.Abstractions.Databases;
 using AutoMapper;
 
-namespace _4dev2024.Modules.Invoices.Core.Services
+namespace _4dev2024.Modules.Orders.Core.Services
 {
     internal class OrderService : IOrderService
     {

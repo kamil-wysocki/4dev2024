@@ -1,8 +1,8 @@
-﻿using _4dev2024.Modules.Invoices.Core.Entities;
+﻿using _4dev2024.Modules.Orders.Core.Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace _4dev2024.Modules.Invoices.Core.DAL.Configurations
+namespace _4dev2024.Modules.Orders.Core.DAL.Configurations
 {
     internal class ClientOrderConfiguration : IEntityTypeConfiguration<ClientOrder>
     {

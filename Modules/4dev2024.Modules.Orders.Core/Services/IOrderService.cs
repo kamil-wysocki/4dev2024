@@ -1,6 +1,6 @@
-﻿using _4dev2024.Modules.Invoices.Core.DTO;
+﻿using _4dev2024.Modules.Orders.Core.DTO;
 
-namespace _4dev2024.Modules.Invoices.Core.Services
+namespace _4dev2024.Modules.Orders.Core.Services
 {
     internal interface IOrderService
     {
